@@ -1,0 +1,91 @@
+/* General container styles */
+.departments-container {
+    margin: 0;
+    /* Remove any margin */
+    padding: 0;
+    /* Remove any padding */
+    box-sizing: border-box;
+    width: 100%;
+    /* Ensure full width */
+    font-family: Arial, sans-serif;
+    background-color: #F9F9F9;
+    /* Light background for the page */
+}
+
+.departments-heading {
+    text-align: center;
+    font-size: 36px;
+    color: #4F0341;
+    margin-bottom: 20px;
+}
+
+/* Grid layout for cards */
+.departments-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* 4 cards in a row */
+    gap: 40px 0;
+    /* Horizontal gap of 20px and vertical gap of 40px */
+    justify-items: center;
+    width: 90%;
+    margin: 0 auto;
+    /* Center the grid on the page */
+}
+
+/* Card styling */
+.department-card {
+    background-color: #F3E5F5;
+    /* Light Lavender */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    /* Ensure cards fit within the grid */
+    max-width: 250px;
+    /* Optional: Restrict card size */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.department-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Image styling */
+.department-image {
+    width: 100%;
+    height: 150px;
+    /* Consistent height */
+    object-fit: cover;
+    /* Maintain aspect ratio and crop overflow */
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Department name */
+.department-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4F0341;
+    margin-bottom: 10px;
+}
+
+/* Appointment button */
+.appointment-button {
+    padding: 10px 15px;
+    background-color: #4F0341;
+    /* Tyrian Purple */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.appointment-button:hover {
+    background-color: #6A1B9A;
+    /* Slightly lighter purple */
+    transform: scale(1.05);
+}

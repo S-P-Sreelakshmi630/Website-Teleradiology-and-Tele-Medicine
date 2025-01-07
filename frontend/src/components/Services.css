@@ -1,0 +1,70 @@
+/* General Styling */
+.services-container {
+    font-family: Arial, sans-serif;
+}
+
+.services-content {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Bands Styling */
+.service-band {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.even-band {
+    background-color: #F3E5F5;
+    /* Light Lavender */
+}
+
+.odd-band {
+    background-color: #EDE7F6;
+    /* Light Purple */
+}
+
+/* Text Styling */
+.service-text {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+}
+
+.service-text h2 {
+    font-size: 24px;
+    color: #4F0341;
+    /* Tyrian Purple */
+    margin-bottom: 10px;
+}
+
+.service-text p {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Image Styling */
+.service-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Image Styling */
+.service-image img {
+    width: 300px;
+    /* Set a fixed width for all images */
+    height: 200px;
+    /* Set a fixed height for all images */
+    border-radius: 10px;
+    object-fit: cover;
+    /* Ensures images maintain aspect ratio within the defined dimensions */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}

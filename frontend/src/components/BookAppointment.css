@@ -1,0 +1,124 @@
+.book-appointment-container {
+    width: 90%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #4F0341;
+    margin-bottom: 20px;
+}
+
+.appointment-details {
+    background-color: #F3E5F5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.appointment-details p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.appointment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: #333;
+}
+
+input,
+select {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.slots-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.slot-button {
+    background-color: #EDE7F6;
+    border: 1px solid #4F0341;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.slot-button.selected-slot {
+    background-color: #4F0341;
+    color: #FFF;
+}
+
+.pay-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.payment-success {
+    margin-top: 10px;
+    color: green;
+    font-weight: bold;
+}
+
+.submit-button {
+    background-color: #4F0341;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.submit-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+
+/* Styles for image upload */
+.image-upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-upload-container label {
+    margin-bottom: 10px;
+}
+
+.image-preview {
+    max-width: 200px;
+    max-height: 200px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+}
+
+.upload-status {
+    margin-top: 5px;
+    font-style: italic;
+    color: green;
+    /* Change to red for errors */
+}

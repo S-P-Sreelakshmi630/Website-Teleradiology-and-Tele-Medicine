@@ -1,0 +1,80 @@
+/* Navbar container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #4F0341;
+    /* Tyrian purple */
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2rem;
+    /* Slightly increased font size */
+}
+
+/* Navbar logo */
+.navbar-logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+    /* Make the logo slightly larger */
+}
+
+/* Navbar links container */
+.navbar-links {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    /* Adds spacing between the items */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar link styles */
+.navbar-links li {
+    position: relative;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    /* Add padding to create a button-like feel */
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    /* Rounded edges for modern look */
+}
+
+/* Hover effect: text turns Tyrian purple, background turns white */
+.navbar-links a:hover {
+    background-color: white;
+    color: #4F0341;
+    /* Tyrian purple */
+    font-weight: bold;
+}
+
+/* Add spacing for larger clickable area */
+.navbar-links li a {
+    font-size: 1.2rem;
+    /* Increase font size */
+    display: inline-block;
+}
+
+/* Logout button styles */
+.logout-button {
+    background-color: white;
+    color: #4F0341;
+    /* Tyrian purple */
+    border: none;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.logout-button:hover {
+    background-color: #4F0341;
+    /* Tyrian purple */
+    color: white;
+}

@@ -1,0 +1,126 @@
+/* LabDashboard.css */
+.lab-dashboard {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.welcome-msg {
+    font-size: 28px;
+    font-weight: bold;
+    color: #4CAF50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.notification {
+    margin: 15px 0;
+    padding: 15px;
+    background-color: #f4f4f4;
+    border-left: 5px solid #4CAF50;
+    border-radius: 5px;
+}
+
+.lab-info {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.lab-name {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.patient-name {
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.patient-image-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.patient-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #ddd;
+    border-radius: 10px;
+}
+
+.video-call-section {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.video-preview {
+    width: 100%;
+    max-height: 300px;
+    background-color: #000;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+.video-controls {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.start-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.stop-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.submit-btn {
+    background-color: #008CBA;
+    color: white;
+}
+
+.upload-btn {
+    background-color: #ff9800;
+    color: white;
+}
+
+.test-results-section {
+    margin-top: 30px;
+}
+
+.results-input {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.video-preview-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.action-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}

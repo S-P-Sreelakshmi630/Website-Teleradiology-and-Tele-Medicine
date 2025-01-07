@@ -1,0 +1,109 @@
+/* General Page Styles */
+.department-page-container {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    /* Remove extra padding */
+    margin: 0;
+    /* Remove extra margin */
+    background-color: #F3E5F5;
+    /* Light lavender background */
+    min-height: 100vh;
+}
+
+/* Navbar Specific Fix */
+.navbar-container {
+    margin: 0;
+    /* Remove any space */
+    padding: 0;
+    /* Remove any space */
+    width: 100%;
+    /* Ensure full width */
+}
+
+.navbar {
+    margin: 0;
+    padding: 15px 0px;
+    /* Increase padding for thickness */
+    width: 100%;
+    background-color: #4F0341;
+    /* Ensure consistent background */
+    color: white;
+    display: flex;
+    align-items: center;
+    /* Center content vertically */
+    font-size: 18px;
+    /* Adjust font size for better proportion */
+}
+
+/* Department Title Styling */
+.department-title {
+    text-align: center;
+    font-size: 36px;
+    color: #4F0341;
+    margin-bottom: 20px;
+}
+
+/* Table Container */
+.table-container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+    padding: 20px;
+}
+
+/* Department Table Styles */
+.department-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.department-table th,
+.department-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+.department-table th {
+    background-color: #4F0341;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.department-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.department-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Book Appointment Button */
+.book-button {
+    padding: 8px 12px;
+    background-color: #4F0341;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.book-button:hover {
+    background-color: #6A1B9A;
+    /* Slightly lighter purple */
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
+/* Body Reset to Ensure No Extra Spacing */
+body {
+    margin: 0;
+    /* Reset body margin */
+    padding: 0;
+    /* Reset body padding */
+}
